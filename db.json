@@ -5,8 +5,13 @@
     { "userId": 1, "id": 3, "title": "Post 3", "body": "may" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "postId": 1, "id": 1, "userId": 1, "body": "some comment" },
+    { "postId": 1, "id": 2, "userId": 2, "body": "some comment" 
+},
+    { "postId": 2, "id": 3, "userId": 3, "body": "some comment" 
+},  
+    { "postId": 3, "id": 4, "userId": 2, "body": "some comment" 
+}
   ],
   "profile": {
     "name": "typicode"
